@@ -1,0 +1,569 @@
+/*Estrutura do Site */
+body, html {
+	background: #f0f0f0 url(../imagens/fundo1.jpg) repeat-x;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+	height: 100%;
+	margin: 0;
+}
+
+#container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+a:link, a:active, a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffa500;
+}
+
+/*LOGO*/
+#logo h1 {
+	float: left;
+}
+
+#logo a {
+	width: 350px;
+	height: 72px;
+	text-indent: -9999px;
+	background: url(../imagens/medempresarial.png);
+	border-radius: 30px;
+	display: block;
+}
+
+
+/*BARRA DE NAVEGAÇÃO */
+header {
+	padding: 5px 0;
+	height: 100px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 12px;
+	float: right;
+	padding: 17px;
+		
+}
+
+nav ul li {
+	float: left;
+	padding: 8px;
+	margin: 5px;
+
+}
+
+nav ul li a:link {
+	display: block;
+	margin-right: 15px;
+	padding-bottom: 1px;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover {
+	border-bottom: 1px solid #000000;
+}
+
+body.home nav a#home, 
+body.servicos nav a#servicos,
+body.sistema-de-gestão nav a#sistema-de-gestao,
+body.contato nav a#contato,
+body.sac nav a#sac,
+body.acesso-ao-soc nav a#acesso-ao-soc {
+	color: #fff;
+	background: darkorange;
+	cursor: text;
+}
+
+/*PRINCIPAL*/
+#conteudo {
+	text-align: left;
+	width: 1080px;
+	padding: 120px 80px 80px 10px;
+	margin-bottom: 20px;
+	float: left;
+
+
+}
+
+#conteudo h1 span {
+	font-size: 45px;
+	color: darkred;
+	border-bottom: 2px solid #000000;
+}
+
+.conteudo {
+	color: #000000;
+	background-color: darkorange;
+	text-align: center;
+	padding: 5px 80px 30px;
+	font-size: 15px;
+}
+
+.conteudo-titulo {
+	position: absolute;
+	padding-top: 22%;
+	padding-bottom:21.2%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+	color: #fff;
+	background-color: #111;
+	font-size: 25px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+div.conteudo h3 p {
+	width: 500px;
+	float: left;
+}
+
+.conteudo2 {
+	color: #000000;
+	background-color: darkorange;
+	width: 650px;
+	float: left;
+	padding: 54.5px;
+	font-size: 15px;
+	padding-top: 22px;
+}
+
+aside {
+	width: 650px;
+	float: right;
+	background: gray;
+	padding: 55px;
+	padding-top: 5.6px;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+
+div.conteudo3 {
+	background: #b4b4b4;
+}
+
+div.conteudo3 h2 {
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	clear: both;
+}
+
+div.conteudo3 span {
+	border-bottom: 1px solid #000000;
+}
+
+div.conteudo3 section {
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+}
+
+div.conteudo3 section img {
+	width: 50%;
+}
+
+/*PÁGINA SISTEMA DE GESTÃO*/
+
+#secundario h1 {
+	height: 50px;
+	margin: 20px;
+	padding: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	background: #f0f0f0;
+}
+
+#secundario h1 span {
+	border-bottom: 1px solid #111;
+}
+
+#secundario aside.conteudo-primario {
+	float: left;
+	padding-left: 20px;
+	background: #f0f0f0;
+	padding-left: 50px;
+	padding-bottom: 80px;
+
+}
+
+#secundario aside.conteudo-secundario {
+	float: right;
+	padding-right: 25px;
+	background: #f0f0f0;
+	padding-right: 50px;
+	padding-bottom: 48px;
+}
+
+
+#secundario aside div img {
+	margin-right: 15px;
+	float: left;
+	background: #fff;
+	text-align: justify;
+}
+
+/* PÁGINA REDE CREDENCIADA */
+
+#terciario h1 {
+	height: 50px;
+	margin: 20px;
+	padding: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	background: #f0f0f0;
+}
+
+#terciario h1 span {
+	border-bottom: 1px solid #111;
+}
+
+#terciario section {
+	text-align: center;
+	margin: 50px;
+	padding: 15px;
+	
+}
+
+/*BARRA DE NAVEGAÇÃO PÁG. REDE CREDENCIADA*/
+
+#terciario ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 900px;
+
+}
+
+#terciario ul li {
+	float: right;
+	background: darkorange;
+	border-radius: 10px 10px 0 0;
+	padding: 5px;
+	margin: 1px;
+	border-bottom: 1px solid #111;
+} 
+
+#terciario li a {
+	display: block;
+	padding: 0 2em;
+	line-height: 2em;
+	text-decoration: none;
+	color: #111;
+}
+
+
+#terciario ul a:hover {
+	color: #fff;
+}
+
+
+/* PÁGINA CONTATO */
+
+#quaternario section h1 {
+	font-size: 30px;
+
+}
+
+#quaternario h1 {
+	height: 50px;
+	margin: 20px;
+	padding: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	background: #fff;
+	background: #f0f0f0;
+
+}
+
+#quaternario h1 span {
+	border-bottom: 1px solid #111;
+}
+
+#quaternario h2 {
+	height: 15px;
+	margin: 20px;
+	padding: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	background: #f0f0f0;
+}
+
+
+article#mapa {
+	padding: 40px;
+	margin: 50px auto;
+	width: 900px;
+	margin-right: 50px;
+}
+
+
+/*FORMULÁRIO PÁGINA CONTATO */
+
+article#form h1 {
+	text-align: left;
+	margin-left: 1px;
+	margin-top: 1px;
+	padding-top: 5px;
+}
+
+article#form span {
+	border-bottom: 1px solid #111;
+}
+
+article#form {
+	float: left;
+	padding: 25px 25px 25px 10px;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+
+input {
+	padding: 5px;
+	width: 400px;
+	font-size: 0.9em;
+	background-color: #fff;
+}
+
+input.submit {
+	width: 200px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+}
+
+textarea {
+	width: 250px;
+	padding: 80px auto;
+}
+
+
+article#contato h1 {
+	text-align: left;
+	margin-left: 1px;
+	margin-top: 1px;
+	padding-top: 5px;
+}
+
+article#contato {
+	float: right;
+	padding: 25px 25px 25px 10px;
+	padding-left: 100px;
+}
+
+article#contato span {
+	border-bottom: 1px solid #111;
+}
+
+#contato div img {
+	padding: 5px;
+	width: 35px;
+	padding-right: 25px;
+	float: left;
+}
+
+#contato div img.imagem1 {
+	height: 30px;
+	width: auto;
+	padding: 27px 30px 15px 0px;
+	float: left;
+}
+
+#contato div {
+	padding: 10px;
+	text-align: justify;
+
+}
+
+#contato h4 {
+	margin: 15px;
+	text-align: left;
+}
+
+#locais {
+	float: right;
+	clear: both;
+}
+
+#locais img {
+	padding: 5px;
+	width: 20px;
+	padding-right: 25px;
+}
+
+#locais ul.item {
+	list-style: none;
+	flex-shrink: 1;
+}
+
+#locais ul.item1 {
+	list-style: none;
+	flex-shrink: 2;
+}
+
+#locais ul.item2 {
+	list-style: none;
+	flex-shrink: 3;
+}
+
+/* PÁGINA SAC */
+#form p {
+	font-size: 13px;
+}
+
+#contato1 img {
+	padding: 25px;
+	margin: 50px;
+	float: left;
+}
+
+
+/*PÁGINA SERVIÇOS */
+
+section#form1 {
+	text-align: justify;
+	padding: 25px 25px 25px 25px;
+	margin-bottom: 400px;
+}
+
+
+img.imagem {
+	margin-top: 85px;
+	float: left;
+	width: 450px;
+	height: 250px;
+	box-sizing: border-box;
+	border-radius: 10px 150px;
+}
+
+
+.secao1 {
+	width: 900px;
+	float: right;
+	padding: 54.5px;
+	font-size: 15px;
+	padding-top: 22px;
+	border-bottom: 1px solid #111;
+}
+
+#form1 div {
+	margin-top: 50px;
+}
+
+section img.imagem2 {
+	margin-top: 85px;
+	float: left;
+	width: 450px;
+	height: 250px;
+	box-sizing: border-box;
+	border-radius: 10px 150px;
+}
+
+
+section img.imagem3 {
+	margin-top: 85px;
+	float: left;
+	width: 450px;
+	height: 385px;
+	box-sizing: border-box;
+	border-radius: 10px 150px;
+}
+
+
+section img.imagem4 {
+	margin-top: 85px;
+	float: left;
+	width: 450px;
+	height: 250px;
+	box-sizing: border-box;
+	border-radius: 10px 150px;
+}
+
+section img.imagem5 {
+	margin-top: 100px;
+	float: left;
+	width: 450px;
+	height: 350px;
+	box-sizing: border-box;
+	border-radius: 50px 50px;
+}
+
+.secao2 {
+	width: 550px;
+	float: right;
+	padding: 54.5px;
+	font-size: 15px;
+	padding-top: 22px;
+}
+
+
+.secao1 ul {
+	padding-left: 350px;
+}
+
+
+
+
+.titulo1 {
+	padding: 15px;
+
+}
+
+
+.caixa1, .caixa2, .caixa3 {
+	height: 100%;
+	opacity: 1;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.caixa1 {
+	background-image: url(../imagens/segurança2.jpg);
+}
+
+.caixa2 {
+	background-image: url(../imagens/segurança1.png);
+}
+
+.caixa3 {
+	background-image: url(../imagens/segurança3.jpeg);
+}
+
+
+
+/*Rodapé */
+
+footer {
+	padding: 1px 0 18px 0;
+	text-align: center;
+	background: darkred url(../imagens/fundo1.jpg) repeat-x;
+	clear: both;
+}
+
+footer>p a {
+	padding: 2px 0;
+}
+
+footer a:link {
+	list-style: none;
+	margin-right: 20px;
+	text-transform: uppercase;
+}
+
+footer a:hover {
+	border-bottom: 1px solid #000000;
+}
